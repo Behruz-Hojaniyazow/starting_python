@@ -1,22 +1,29 @@
-# Python Fundamentals: Dictionary Exercises
+# 🐍 Python Learning Journey
 
-Welcome to my Python practice repository! This project contains a series of exercises focused on mastering **Python Dictionaries**, developed while following the "Sariq Dev" (Anvar Narzullaev) Python course.
+Welcome to my Python repository! This project is a comprehensive collection of scripts and exercises documenting my progress as I master Python programming from the ground up.
 
-## 📂 Project Overview
-This repository showcases my progress in understanding data structures, specifically focusing on key-value pairs, nested dictionaries, and sorting algorithms in Python.
+## 🚀 About This Project
+This repository serves as a personal laboratory where I explore Python's core concepts, mathematical logic, and problem-solving techniques. It is a reflection of my journey toward becoming a Computer Engineer.
 
-### Exercises Included:
-* **`01_student_grades.py`**: Managing student data and calculating averages using list-in-dictionary structures.
-* **`02_country_capitals.py`**: Implementing a lookup system for country capitals with user input handling.
-* **`03_restaurant_menu.py`**: A dynamic order processing system using price-mapped menus.
-* **`04_country_populations.py`**: Advanced data sorting using `sorted()` with `lambda` functions to rank countries by population.
+## 📚 What's Inside?
+I am currently covering all fundamental and intermediate Python topics, including:
+* **Core Fundamentals:** Variables, Data Types, and Operators.
+* **Control Flow:** If-else statements, For/While loops.
+* **Data Structures:** Lists, Tuples, Sets, and Dictionaries.
+* **Functions & Modules:** Writing reusable and organized code.
+* **Math & Logic:** Applying algebraic concepts and computational thinking.
 
-## 🚀 Key Concepts Learned
-* **Dictionary Operations**: Adding, accessing, and iterating through key-value pairs.
-* **Data Nesting**: Storing lists and other dictionaries within dictionaries.
-* **Sorting Techniques**: Using `items()` and `lambda` expressions to sort complex data structures by specific values.
-* **Input Handling**: Creating interactive programs with validation and formatting.
+## 📊 Repository Statistics
+* **Current Status:** Active Learning 📈
+* **Total Lessons/Scripts:** 15+ specialized Python files
+* **Language:** Python 3.x
+* **Goal:** Building a solid foundation for future Engineering studies.
+
+## 🛠 Tools & Environment
+* **Language:** Python
+* **Platform:** Mobile & Desktop development
+* **Focus:** Clean code and efficient algorithms
 
 ---
-*Feel free to explore the code and see how I applied these concepts to solve real-world logic problems!*
+*“The best way to predict the future is to create it.”*
 
