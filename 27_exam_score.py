@@ -21,8 +21,8 @@ if students_scores:
   average_score = sum(all_scores) / len(all_scores)
   for student, score in students_scores.items():
    print(f"{student} got {score} scores")
-print(f"The highest score in class is {highest_score}")
-print(f"The lowest score in class is {lowest_score}")
-print(f"Average score in class is {average_score}")
+  print(f"The highest score in class is {highest_score}")
+  print(f"The lowest score in class is {lowest_score}")
+  print(f"Average score in class is {average_score}")
 else:
   print("Still no one has taken exam")
