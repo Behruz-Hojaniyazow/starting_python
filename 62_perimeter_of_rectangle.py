@@ -5,7 +5,7 @@ def get_number(string):
       if number > 0:
         return number
       else:
-        print("Error, The number must ne positive, (greater than '0')")
+        print("Error, The number must be positive, (greater than '0')")
     except ValueError:
       print("Please enter only numbers, Try again")
 def perimeter():
