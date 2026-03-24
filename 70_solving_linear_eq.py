@@ -16,5 +16,5 @@ def linear_eq():
       print("The equation has no solution")
   else:
     x = -b / a
-  print(f"Solution to the equation: {x}")
+  print(f"Solution to the equation: {x:.2f}")
 linear_eq()
