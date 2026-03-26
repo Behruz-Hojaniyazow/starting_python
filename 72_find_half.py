@@ -1,5 +1,5 @@
 def find_half(a):
-  """a function thag finds the half of the given number"""
+  """a function that finds the half of the given number"""
   num = a / 2
   return num
 while True:
