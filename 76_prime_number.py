@@ -16,7 +16,7 @@ while True:
     break
   result = defining_prime(num)
   print(f"{num} is a {result} number")
-  choice = input("Do you want to check a number again? (yes/no) ")\.lower()
+  choice = input("Do you want to check a number again? (yes/no) ").lower()
   if choice == 'no':
     print("Good Bye")
     break
