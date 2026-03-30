@@ -2,7 +2,7 @@ def defining_prime(number):
   """a function that defines whether the number prime or composite"""
   if number <= 1:
     return "neither prime nor complex"
-  for i in range(2, number):
+  for i in range(2, int(number ** 0.5 + 1)):
     if number % i == 0:
       return "composite"
       
