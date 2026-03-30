@@ -10,9 +10,13 @@ def defining_prime(number):
   
 while True:
   try:
-    num = int(input("Enter only integer numbers: "))
-    break
+    num = int(input("Enter only integer numbers (enter a letter to exit): "))
   except ValueError:
-    print("Please enter only integers, Try again")
-result = defining_prime(num)
-print(f"{num} is a {result} number")
+    print("The project was ended, God bless you")
+    break
+  result = defining_prime(num)
+  print(f"{num} is a {result} number")
+  choice = input("Do you want to check a number again? (yes/no) ")\.lower()
+  if choice == 'no':
+    print("Good Bye")
+    break
