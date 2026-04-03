@@ -15,16 +15,16 @@ def multiply(*args):
   return num
 while True:
   numbers = []
-  choice = get_number("Enter a number (or 'done' to finish): ")
-  if choice.lower() == "done":
-    break
+  choice = get_number("Enter a number: ")
   try:
     numbers.append(choice)
   except ValueError:
     print("Invalid input, Try Again")
   if numbers:
     result = multiply(*numbers)
-  number_str = " × ".join(map(str, numbers))
-  print(f"{number_str} = {result}")
+    number_str = " × ".join(map(str, numbers))
+    print(f"{number_str} = {result}")
+  else:
+    print("No numbers entered")
   if input("Do you wanna continue (yes/no)?").lower() == "no":
     break
