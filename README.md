@@ -14,7 +14,7 @@ I am currently covering all fundamental and intermediate Python topics, includin
 * **Math & Logic:** Applying algebraic concepts and computational thinking.
 
 ## 📊 Repository Statistics
-* **Current Status:** Active Learning 📈
+* **Current Status:** Active Learning 📈 +99 lessons
 * **Language:** Python 3.x
 * **Goal:** Building a solid foundation for future Engineering studies.
 
