@@ -31,8 +31,10 @@ def check_incubator_status():
         print(f"Sensor {i}: {display_temp}°C -> {status}")
         if danger_found:
           print("\nWARNING: Immediate action required for Brama chicks")
+          print("=" * 30)
         else:
           print("\nALL systems normal, Optimal environment")
+          print("=" * 30)
           
   except FileNotFoundError:
     print(f"The file '{filename}' was not found, Please run the Writer first")
